@@ -1,0 +1,30 @@
+@media (min-width: 768px) {
+    .banner-img {
+        background-image: url('../images/banner.jpg');
+    }
+
+    .padding-container{
+        padding: 30px 50px;
+    }
+
+    .grid-md-3-col {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .span-2 {
+        grid-column: auto / span 2;
+    }
+
+    #target, 
+    #personal-info {
+        padding: 50px;
+    }
+
+	.cert-item-border-bottom {
+		border-bottom: none;
+	}
+
+    .cert-img {
+        width: 35%;
+    }
+}
