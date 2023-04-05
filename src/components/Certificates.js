@@ -20,7 +20,7 @@ const CERTS = [
 		name: 'Chứng chỉ lập trình React - FUNiX',
 		desc: 'Chứng chỉ thuộc chương trình CCDN',
 		gpa: 8.5,
-		img: 'RJS.jpg',
+		img: 'Cert_RJS.jpg',
 		alt: 'React certificate',
 	},
 ]
