@@ -1,0 +1,177 @@
+@import url(font.css);
+
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'open_sansregular';
+    line-height: 1.4;
+    color: #333;
+}
+
+.bg-grey {
+    background: #f7f7f7;
+}
+
+.padding-container {
+	padding: 30px 8px;
+}
+
+/* Banner */
+.banner-img {
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 50vh;
+}
+
+#banner {
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 50vh;
+}
+
+.title {
+    font-size: 2.5rem;
+}
+
+.subtitle {
+    font-size: 0.875rem;
+}
+
+/* Navbar */
+.nav-item:hover {
+    background-color: #41464b;
+}
+
+.nav-item:hover a, 
+.nav-item:hover i {
+    color: #eee;
+}
+
+#nav-bar-title span {
+    font-size: 0.75rem;
+}
+
+/* Job info */
+.job-info-tile {
+    padding: 2.5rem 1.5rem;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 60px 1fr;
+	row-gap: 1.75rem;
+}
+
+.tile-icon {
+    font-size: 2rem;
+}
+
+.tile-contents {
+    grid-column: 1 / span 2;
+    font-size: 0.875rem;
+}
+
+.tile-contents ul {
+    padding-left: 1.125rem;
+}
+
+.recent {
+	font-family: 'open_sansitalic';
+}
+
+.description::before {
+    content: '- ';
+}
+
+/* Skill, Language */
+.skill p {
+    font-size: 0.875rem;
+}
+
+.skill span {
+	max-width: 3.25rem;
+    width: 25%;
+    height: 0.3rem;
+}
+
+.skill .filled {
+    background-color: #0079bc;
+}
+
+/* Hobbies */
+.hobby-detail {
+    width: 3.875rem;
+}
+
+.hobby-icon {
+    font-size: 1.125rem;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.hobby-name {
+    font-size: 0.75rem;
+}
+
+/* About */
+#target, 
+#personal-info {
+    padding: 20px;
+}
+
+#personal-info {
+    background: #e7e7e7;
+}
+
+#contacts i {
+    font-size: 1.25rem;
+}
+
+#contacts a:hover {
+    color: #41464b;
+} 
+
+/* Certificates */
+.cert-item-border-bottom {
+    border-bottom: 1px solid #d6c08d;
+}
+
+.cert-detail {
+    font-size: 0.8rem;
+}
+
+.cert-info::before {
+    content: '- ';
+}
+
+/* Projects */
+.project-list {
+    font-size: 0.75rem;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table, tr {
+    border: 1px solid #41464b;
+}
+
+td {
+    padding: 10px;
+}
+
+.project-desc-label {
+    width: 33%;
+}
+
+/* Footer */
+#footer i {
+    font-size: 2rem;
+}
+
+#footer a:hover {
+    color: #41464b;
+}

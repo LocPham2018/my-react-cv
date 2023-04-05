@@ -1,0 +1,25 @@
+@media (min-width: 576px) {
+	.grid-2-col {
+		grid-template-columns: 1fr 1fr;
+	}
+
+	.grid-3-col {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+
+	.nav-border-left {
+		border-left: 0.5px solid #41464b;
+	}
+
+	.cert-row-border-sm-bottom {
+		border-bottom: 1px solid #d6c08d;
+	}
+
+	.cert-item-border-bottom {
+		border-bottom: none;
+	}
+
+	.cert-item-border-sm-right {
+		border-right: 1px solid #d6c08d;
+	}
+}
