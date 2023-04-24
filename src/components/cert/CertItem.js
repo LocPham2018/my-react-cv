@@ -1,7 +1,7 @@
 import CertDetail from './CertDetail';
 import CertImg from './CertImg';
 
-const CertItem = ({ cert, left }) => {
+const CertItem = ({ cert, left, leftInPair }) => {
 	let classes = [
 		'cert-item',
 		'd-flex',
@@ -9,10 +9,14 @@ const CertItem = ({ cert, left }) => {
 		'flex-md-row',
 		'py-4',
 		'py-sm-0',
-		'pe-sm-3',
 		'cert-item-border-bottom',
 	];
 	if (left) {
+		classes.push('pe-sm-3');
+	} else {
+		classes.push('ps-sm-3');
+	}
+	if (leftInPair) {
 		classes.push('cert-item-border-sm-right');
 	}
 

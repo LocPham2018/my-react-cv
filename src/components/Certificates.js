@@ -32,11 +32,11 @@ const Certificates = () => {
 				<h1 className="mb-4 h3">Chứng chỉ - Giải thưởng</h1>
 				<div className="cert-list">
 					<div className="d-grid grid-2-col py-sm-4 cert-row-border-sm-bottom">
-						<CertItem cert={CERTS[0]} left />
+						<CertItem cert={CERTS[0]} left leftInPair />
 						<CertItem cert={CERTS[1]} />
 					</div>
 					<div className="d-grid grid-2-col py-sm-4">
-						<CertItem cert={CERTS[2]} />
+						<CertItem cert={CERTS[2]} left />
 					</div>
 				</div>
 			</div>
