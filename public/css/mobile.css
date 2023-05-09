@@ -134,7 +134,7 @@ body {
     font-size: 1.25rem;
 }
 
-#contacts a:hover {
+#personal-info a:hover {
     color: #41464b;
 } 
 
@@ -170,6 +170,14 @@ td {
 
 .project-desc-label {
     width: 33%;
+}
+
+#project img {
+    aspect-ratio: 16/9;
+}
+
+#project a:hover {
+    color: #41464b;
 }
 
 /* Footer */

@@ -1,8 +1,8 @@
-const ProjectTitle = ({ name, year, customer, role }) => {
+const ProjectTitle = ({ name, url, year, customer, role }) => {
 	return (
 		<>
 			<div className="border border-secondary px-3 px-sm-2 px-md-3 py-2 text-uppercase fw-bold">
-				{name}
+				<a className="text-decoration-none" href={url}>{name}</a>
 			</div>
 			<div className="d-flex flex-column flex-sm-row border border-secondary px-3 px-sm-2 px-md-3 py-2">
 				<span className="align-self-start me-md-2 px-2 py-1 bg-primary rounded-pill text-light">

@@ -4,6 +4,7 @@ import Project from './project/Project';
 const PROJECTS = [
 	{
 		name: 'CV cá nhân',
+		url: 'https://my-react-cv-seven.vercel.app/',
 		year: 2023,
 		customer: 'FUNiX',
 		role: 'Developer',
@@ -15,19 +16,8 @@ const PROJECTS = [
 		technology: 'HTML, CSS, Bootstrap',
 	},
 	{
-		name: 'Trang web xem tin tức',
-		year: 2023,
-		customer: 'FUNiX',
-		role: 'Developer',
-		img: 'project-2.png',
-		imgAlt: 'Newsfeed',
-		desc: 'Trang Web xem tin tức từ nhiều nguồn khác nhau, người dùng có thể tìm kiếm các tin tức dựa theo các từ khóa.',
-		detailRole:
-			'- Phát triển code. - Review code. - Tối ưu code. - Xử lý lỗi.',
-		technology: 'HTML, CSS, Javascript',
-	},
-	{
 		name: 'Movie streaming',
+		url: 'https://ntflix-clone-eadd1b.netlify.app/',
 		year: 2023,
 		customer: 'FUNiX',
 		role: 'Developer',
@@ -37,6 +27,19 @@ const PROJECTS = [
 		detailRole:
 			'- Phát triển code. - Review code. - Tối ưu code. - Xử lý lỗi.',
 		technology: 'React',
+	},
+	{
+		name: 'Trang web bán hàng',
+		url: 'https://njs-asm03-client.netlify.app/',
+		year: 2023,
+		customer: 'FUNiX',
+		role: 'Developer',
+		img: 'project-4.png',
+		imgAlt: 'Trang web bán hàng',
+		desc: 'Phát triển giao diện trang web thương mại điện tử gồm các chức năng: xem danh sách và thông tin sản phẩm chi tiết, đặt hàng và xem đơn hàng.',
+		detailRole:
+			'- Phát triển code. - Review code. - Tối ưu code. - Xử lý lỗi.',
+		technology: 'React, NodeJS',
 	},
 ];
 

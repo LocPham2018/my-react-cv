@@ -23,6 +23,13 @@ const CERTS = [
 		img: 'Cert_RJS.jpg',
 		alt: 'React certificate',
 	},
+	{
+		name: 'Chứng chỉ lập trình NodeJS - FUNiX',
+		desc: 'Chứng chỉ thuộc chương trình CCDN',
+		gpa: 7.3,
+		img: 'Cert_NJS.jpg',
+		alt: 'Node certificate',
+	},
 ]
 
 const Certificates = () => {
@@ -36,7 +43,8 @@ const Certificates = () => {
 						<CertItem cert={CERTS[1]} />
 					</div>
 					<div className="d-grid grid-2-col py-sm-4">
-						<CertItem cert={CERTS[2]} left />
+						<CertItem cert={CERTS[2]} left leftInPair />
+						<CertItem cert={CERTS[3]} />
 					</div>
 				</div>
 			</div>

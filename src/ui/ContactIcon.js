@@ -1,6 +1,6 @@
-const ContactIcon = ({ iconName }) => {
+const ContactIcon = ({ iconName, url }) => {
 	return (
-		<a className="text-decoration-none" href="#">
+		<a className="text-decoration-none" href={url}>
 			<i className={iconName}></i>
 		</a>
 	);

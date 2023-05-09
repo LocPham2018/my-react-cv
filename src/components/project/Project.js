@@ -8,6 +8,7 @@ const Project = ({ project }) => {
 			<ProjectImg img={project.img} imgAlt={project.imgAlt} />
 			<ProjectTitle
 				name={project.name}
+				url={project.url}
 				year={project.year}
 				customer={project.customer}
 				role={project.role}

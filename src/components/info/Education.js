@@ -10,9 +10,9 @@ const Education = () => {
 					</p>
 					<p className="mb-0 fst-italic">01/2023 - 04/2023</p>
 					<p className="description mb-0">
-						Sắp hoàn thành chứng chỉ doanh nghiệp nhánh Fullstack.
+						Hoàn thành chứng chỉ doanh nghiệp nhánh Fullstack.
 					</p>
-					<p className="description mb-0">GPA: 8.3 / 10 (3 môn)</p>
+					<p className="description mb-0">GPA: 8.1 / 10</p>
 				</li>
 				<li className="mb-2">
 					<p className="mb-0">
